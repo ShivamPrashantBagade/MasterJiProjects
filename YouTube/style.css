@@ -1,0 +1,63 @@
+html {
+  font-size: 66.5%;
+}
+
+body {
+  background-color: rgb(17, 17, 17);
+  color: rgb(255, 255, 255);
+  font-family: sans-serif;
+}
+
+.search {
+  background-color: rgb(27, 27, 27);
+  padding: 1rem 4rem;
+  display: flex;
+  gap: 3rem;
+  align-items: center;
+  margin-top: 2rem;
+  border-radius: 7px;
+}
+
+.search label {
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+.parent {
+  display: flex;
+  margin: 0 auto;
+  width: 30%;
+}
+
+.videos {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding: 4rem 4rem;
+}
+
+.video {
+  padding: 1rem 1rem;
+  background-color: rgb(27, 27, 27);
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.video:hover {
+  scale: 1.1;
+  transition: 0.3s;
+}
+
+.hidden {
+  display: none;
+}
+
+.thumbnail {
+  width: 100%;
+  border-radius: 8px;
+}
+.title {
+  font-weight: 800;
+  font-size: 2rem;
+}
+.channelName {
+}
